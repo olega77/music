@@ -1,0 +1,15 @@
+<div id="player_div"></div>
+<script src="//d2mdw063ttlqtq.cloudfront.net/audioplayer/player.js"></script>
+<script type="text/javascript">
+  var client = new EnvatoPlayerClient({
+    id: "player_div", // this identifies the container element for the player
+    volume: 50, // this is a percent value (0 to 100)
+    autoStart: false, // tells the player to auto play music
+    referralId: "", // the referral id for affiliate marketting
+    limit: 5, // limits the number of tracks in the playlist
+    width: 380, // player width
+    backColor: "#E7F9EC", // contrasting color
+    foreColor: "#48A85E", // less contrasting color
+    source: "new-files:audiojungle,music" // playlist source
+  });
+</script>
